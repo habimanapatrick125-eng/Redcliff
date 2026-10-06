@@ -6,14 +6,14 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#e21414;
+background:#f5eeee;
 color:#d7dfd7;
 }
 
 header{
 background:#d6d1d1;
 padding:20px;
-color:rgb(223, 7, 7);
+color:rgb(153, 114, 114);
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -144,4 +144,53 @@ color:white;
 text-align:center;
 padding:20px;
 margin-top:30px;
+}
+
+.team {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #b30000;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    transition: 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+}
+
+.team-card img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    color: #333;
+    margin: 8px 0;
 }
